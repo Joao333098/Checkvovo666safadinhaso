@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificar Token do Discord</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Verificar Token do Discord</h1>
+    <form id="tokenForm">
+      <label for="token">Token:</label>
+      <input type="text" id="token" name="token" required placeholder="Digite o token aqui">
+      <select id="tokenType" name="tokenType">
+        <option value="user">Token de Usuário (Self Bot)</option>
+        <option value="bot">Token de Bot</option>
+      </select>
+      <button type="submit">Verificar</button>
+      <button type="button" id="infoButton">Obter Informações</button>
+    </form>
+    <div id="result"></div>
+    <div id="info"></div>
+  </div>
+
+  <!-- Rodapé com informações do criador -->
+  <footer>
+    <p>Meu criador é: <strong>vovo666</strong></p>
+    <p>Participe do servidor dele: <a href="https://discord.gg/RKRM6gXSVf" target="_blank">https://discord.gg/RKRM6gXSVf</a></p>
+    <p>Ajude ele a crescer!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
