@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  background-color: #28a745;
+}
+
+button[type="button"]:hover {
+  background-color: #218838;
+}
+
+#result, #info {
+  margin-top: 20px;
+}
+
+#result p, #info pre {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#result p {
+  border: 1px solid #ddd;
+}
+
+#info pre {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  white-space: pre-wrap;
+}
