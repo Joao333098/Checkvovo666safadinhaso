@@ -1,91 +1,60 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
 }
 
 .container {
-  width: 90%;
-  max-width: 800px;
-  margin: 0 auto;
+  background: #fff;
   padding: 20px;
-  background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 30px;
 }
 
 h1 {
-  text-align: center;
-  color: #333;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  margin-bottom: 20px;
 }
 
 label {
-  font-weight: bold;
-  color: #555;
+  display: block;
+  margin-bottom: 8px;
 }
 
-input[type="text"] {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
+input[type="text"],
 select {
-  padding: 10px;
-  border: 1px solid #ddd;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 16px;
 }
 
 button {
   padding: 10px 15px;
+  background-color: #28a745;
+  color: #fff;
   border: none;
   border-radius: 4px;
-  color: #fff;
-  font-size: 16px;
   cursor: pointer;
-}
-
-button[type="submit"] {
-  background-color: #007bff;
-}
-
-button[type="submit"]:hover {
-  background-color: #0056b3;
+  margin-right: 10px;
 }
 
 button[type="button"] {
-  background-color: #28a745;
+  background-color: #007bff;
 }
 
-button[type="button"]:hover {
+button:hover {
   background-color: #218838;
 }
 
-#result, #info {
+button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+.footer {
   margin-top: 20px;
-}
-
-#result p, #info pre {
-  padding: 10px;
-  border-radius: 4px;
-}
-
-#result p {
-  border: 1px solid #ddd;
-}
-
-#info pre {
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
-  white-space: pre-wrap;
+  text-align: center;
 }
